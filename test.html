@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AvtoTest — 16 savol</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🚘 AvtoTest <span>UZ</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Bosh sahifa</a>
+        <a href="lessons.html">Darslar</a>
+        <a href="test.html">Test</a>
+        <a href="pro.html">👑 PRO</a>
+    </nav>
+
+</header>
+
+
+<section class="test-title">
+
+    <div class="badge">
+        📝 16 SAVOLLIK TEST
+    </div>
+
+    <h1>Avtomobil testi</h1>
+
+    <p>
+        Har bir savolga bitta javob tanlang.
+    </p>
+
+</section>
+
+
+<section class="test-box">
+
+    <div class="test-top">
+
+        <b id="questionNumber">
+            Savol 1 / 16
+        </b>
+
+        <b>
+            ⏱️ <span id="timer">20:00</span>
+        </b>
+
+    </div>
+
+
+    <div class="progress">
+
+        <div id="progress"></div>
+
+    </div>
+
+
+    <div class="question">
+
+        <h2 id="question">
+            Savol yuklanmoqda...
+        </h2>
+
+        <div id="answers"></div>
+
+    </div>
+
+
+    <button
+        class="main-button next"
+        onclick="nextQuestion()">
+
+        Keyingi savol →
+
+    </button>
+
+
+</section>
+
+
+<div id="resultModal"
+     class="modal">
+
+    <div class="result-window">
+
+        <div class="result-icon">
+            🏆
+        </div>
+
+        <h2>Test yakunlandi!</h2>
+
+        <p>Sizning natijangiz:</p>
+
+        <div id="result"
+             class="result-number">
+            0 / 16
+        </div>
+
+        <a href="lessons.html"
+           class="main-button">
+
+            📚 Darslarga qaytish
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <h2>🚘 AvtoTest UZ</h2>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

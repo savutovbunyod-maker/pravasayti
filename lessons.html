@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AvtoTest — Darslar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🚘 AvtoTest <span>UZ</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Bosh sahifa</a>
+        <a href="lessons.html">Darslar</a>
+        <a href="test.html">Test</a>
+        <a href="pro.html">👑 PRO</a>
+    </nav>
+
+    <a href="pro.html" class="pro-button">
+        👑 PRO
+    </a>
+
+</header>
+
+
+<section class="page-title">
+
+    <div class="badge">
+        📚 100 TA DARS
+    </div>
+
+    <h1>Yo'l qoidalari darslari</h1>
+
+    <p>
+        Darsni o'qing va keyin testni ishlang.
+    </p>
+
+</section>
+
+
+<section class="lessons">
+
+    <div class="category-buttons">
+
+        <button onclick="setType('car')">
+            🚗 Avtomobil
+        </button>
+
+        <button onclick="setType('truck')">
+            🚚 Yuk mashinasi
+        </button>
+
+        <button onclick="setType('moto')">
+            🏍️ Motosikl
+        </button>
+
+    </div>
+
+
+    <div id="lessonContainer"
+         class="lesson-grid">
+
+    </div>
+
+</section>
+
+
+<div id="lessonModal"
+     class="modal">
+
+    <div class="lesson-window">
+
+        <button
+            class="close"
+            onclick="closeLesson()">
+            ×
+        </button>
+
+        <div class="badge">
+            📖 DARS
+        </div>
+
+        <h2 id="modalTitle">
+            Dars
+        </h2>
+
+        <div class="road-picture">
+            🚗 ━━━━━ 🚦 ━━━━━ 🛑
+        </div>
+
+        <h3>📚 Mavzu haqida</h3>
+
+        <p id="modalText">
+            Dars ma'lumotlari.
+        </p>
+
+        <div class="tip">
+            💡 <b>Maslahat:</b>
+            Darsni yaxshilab o'qib chiqing.
+            Keyin 16 savollik testni ishlashingiz mumkin.
+        </div>
+
+        <a href="test.html"
+           class="main-button">
+            📝 Testga o'tish →
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <h2>🚘 AvtoTest UZ</h2>
+
+    <p>
+        © 2026 AvtoTest UZ
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
